@@ -1,0 +1,29 @@
+.cover__overlay {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  transition: opacity 0.6s;
+  min-height: 200px;
+}
+
+@media (min-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__overlay {
+    min-height: 740px;
+  }
+}
