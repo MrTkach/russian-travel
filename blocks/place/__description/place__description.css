@@ -12,10 +12,3 @@
     gap: 26px;
   }
 }
-
-@media (min-width:1028px){
-  .place__description{
-    gap: 26px;
-  }
-}
-
